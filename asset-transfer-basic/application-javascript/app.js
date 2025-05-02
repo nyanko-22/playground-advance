@@ -19,8 +19,10 @@ const {
   buildWallet,
 } = require("../../test-application/javascript/AppUtil.js");
 
-const channelName = "mycc";
-const chaincodeName = "mycc1";
+// const channelName = "mycc";
+// const chaincodeName = "mycc1";
+const channelName = "mychannel";
+const chaincodeName = "basic";
 const mspOrg1 = "Org1MSP";
 const walletPath = path.join(__dirname, "wallet");
 const org1UserId = "appUser";
